@@ -1,0 +1,4 @@
+Best Security Practice Recommendations
+
+* Disable Password based login via ssh. Enable key based ssh authentication. Since root login is not recommended, a separate user account can be created for remote login via ssh. Access to ssh can be granted through adding the user/usergroup to ssh configuration file.
+* Change the port for ssh from 22 to a non standard port. This will strenthen the security.
