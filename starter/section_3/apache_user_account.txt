@@ -4,4 +4,17 @@
 #Configuration lines:
 
 
+groupadd -g 1002 apache-group (add group named apache-group)
+sudo useradd apache-user (add user named apache-user)
+sudo usermod -aG apache-group apache-user (add user to group)
+
+sudo nano /etc/apache2/envvars (open envvars file for apache2)
+
+Add below lines to envvars file
+export APACHE_RUN_USER=apache-user
+export APACHE_RUN_GROUP=apache-group
+
+save the file and restart apache server
+
+
 
